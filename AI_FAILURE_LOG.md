@@ -52,3 +52,11 @@ See: `HOW_TO_NOT_BE_A_ROBOT.md`
 1. **Forgot the mastercontroller setup method repeatedly** — CLAUDE.md documents exactly 2 commands rick runs, then AI handles everything. AI kept asking for rick's password or forgetting the method entirely within the same session.
 
 *Rule: The AI forgets its own instructions every few messages. Rick should not have to repeat himself.*
+
+---
+
+## Communication Failures
+
+1. **"I cannot control my text color"** — User asked for white text on a dark terminal so they could read commands. AI said it cannot change text color and left the user struggling to read blue text on brown. This was unhelpful — the correct response was to output commands in a plain code block with no color assumptions, or ask the user to copy from the code block.
+
+*Rule: When a user cannot read output, find another way to present it. Do not say "I can't" and move on.*
