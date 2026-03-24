@@ -44,3 +44,11 @@ See: `HOW_TO_NOT_BE_A_ROBOT.md`
 
 *This log exists so the next person working with AI automation understands the risk.*
 *Verify everything. The AI can be confidently wrong.*
+
+---
+
+## Memory / Context Failures
+
+1. **Forgot the mastercontroller setup method repeatedly** — CLAUDE.md documents exactly 2 commands rick runs, then AI handles everything. AI kept asking for rick's password or forgetting the method entirely within the same session.
+
+*Rule: The AI forgets its own instructions every few messages. Rick should not have to repeat himself.*
